@@ -149,7 +149,6 @@ public class Contact {
     {
         String ph=hasNumber()? this.phoneNumber : "[No number]";
         String info = String.format("%s %s, %s", name, surname, ph);
-        Response
         return info;
     }
 
